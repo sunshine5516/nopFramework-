@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{14A1C729-7DCC-4FB1-B277-198D30626934}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{528230B3-1F09-48D9-AA58-0745947B6F98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{5D5D6335-BDEB-471C-8FFC-B2DC806AD154}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E4781A7C-1A27-4F2F-BB9C-C8B2ED802293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NopFramework.Core", "Libraries\NopFramework.Core\NopFramework.Core.csproj", "{ACE150DB-5FFC-40C9-8AEE-64105B050A47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NopFramework.Data", "Libraries\NopFramework.Data\NopFramework.Data.csproj", "{5E4AA686-21CA-42BD-AC68-2F8028911069}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NopFramework.Services", "Libraries\NopFramework.Services\NopFramework.Services.csproj", "{18FB7DC2-F3EC-471E-9869-DE3B8C28E197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NopFramework.Web.Framework", "Presentation\NopFramework.Web.Framework\NopFramework.Web.Framework.csproj", "{0FD52533-3AA6-4DD1-8B51-F859978521F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NopFramework.Web", "Presentation\NopFramework.Web\NopFramework.Web.csproj", "{59C71BD5-EA34-4731-BA98-42CAD760536E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NopFramework.Admin", "Presentation\NopFramework.Admin\NopFramework.Admin.csproj", "{2D320035-4FD9-48E5-9320-6FC11C624C42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Widgets.NivoSlider", "Plugins\Plugin.Widgets.NivoSlider\Plugin.Widgets.NivoSlider\Plugin.Widgets.NivoSlider.csproj", "{93A04A7C-B8AE-40CB-9493-1D26AAEFB89F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Plugin.Widgets.HelloWorld", "Plugins\Plugin.Widgets.HelloWorld\Nop.Plugin.Widgets.HelloWorld.csproj", "{D83B6467-F77B-44C2-BCBE-761DABF6183D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACE150DB-5FFC-40C9-8AEE-64105B050A47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE150DB-5FFC-40C9-8AEE-64105B050A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE150DB-5FFC-40C9-8AEE-64105B050A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE150DB-5FFC-40C9-8AEE-64105B050A47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E4AA686-21CA-42BD-AC68-2F8028911069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E4AA686-21CA-42BD-AC68-2F8028911069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E4AA686-21CA-42BD-AC68-2F8028911069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E4AA686-21CA-42BD-AC68-2F8028911069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18FB7DC2-F3EC-471E-9869-DE3B8C28E197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18FB7DC2-F3EC-471E-9869-DE3B8C28E197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18FB7DC2-F3EC-471E-9869-DE3B8C28E197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18FB7DC2-F3EC-471E-9869-DE3B8C28E197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FD52533-3AA6-4DD1-8B51-F859978521F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD52533-3AA6-4DD1-8B51-F859978521F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD52533-3AA6-4DD1-8B51-F859978521F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD52533-3AA6-4DD1-8B51-F859978521F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59C71BD5-EA34-4731-BA98-42CAD760536E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59C71BD5-EA34-4731-BA98-42CAD760536E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59C71BD5-EA34-4731-BA98-42CAD760536E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59C71BD5-EA34-4731-BA98-42CAD760536E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D320035-4FD9-48E5-9320-6FC11C624C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D320035-4FD9-48E5-9320-6FC11C624C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D320035-4FD9-48E5-9320-6FC11C624C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D320035-4FD9-48E5-9320-6FC11C624C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93A04A7C-B8AE-40CB-9493-1D26AAEFB89F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93A04A7C-B8AE-40CB-9493-1D26AAEFB89F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93A04A7C-B8AE-40CB-9493-1D26AAEFB89F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93A04A7C-B8AE-40CB-9493-1D26AAEFB89F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D83B6467-F77B-44C2-BCBE-761DABF6183D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D83B6467-F77B-44C2-BCBE-761DABF6183D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D83B6467-F77B-44C2-BCBE-761DABF6183D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D83B6467-F77B-44C2-BCBE-761DABF6183D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACE150DB-5FFC-40C9-8AEE-64105B050A47} = {5D5D6335-BDEB-471C-8FFC-B2DC806AD154}
+		{5E4AA686-21CA-42BD-AC68-2F8028911069} = {5D5D6335-BDEB-471C-8FFC-B2DC806AD154}
+		{18FB7DC2-F3EC-471E-9869-DE3B8C28E197} = {5D5D6335-BDEB-471C-8FFC-B2DC806AD154}
+		{0FD52533-3AA6-4DD1-8B51-F859978521F1} = {14A1C729-7DCC-4FB1-B277-198D30626934}
+		{59C71BD5-EA34-4731-BA98-42CAD760536E} = {14A1C729-7DCC-4FB1-B277-198D30626934}
+		{2D320035-4FD9-48E5-9320-6FC11C624C42} = {14A1C729-7DCC-4FB1-B277-198D30626934}
+		{93A04A7C-B8AE-40CB-9493-1D26AAEFB89F} = {528230B3-1F09-48D9-AA58-0745947B6F98}
+		{D83B6467-F77B-44C2-BCBE-761DABF6183D} = {528230B3-1F09-48D9-AA58-0745947B6F98}
+	EndGlobalSection
+EndGlobal

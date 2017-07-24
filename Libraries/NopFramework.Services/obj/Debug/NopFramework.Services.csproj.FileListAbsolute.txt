@@ -1,0 +1,133 @@
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\NopFramework.Services.dll.config
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\NopFramework.Services.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\NopFramework.Services.pdb
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\Autofac.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\NopFramework.Core.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\NopFramework.Data.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\Autofac.Integration.Mvc.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\System.Web.Mvc.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\EntityFramework.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\System.Web.Razor.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\System.Web.WebPages.Razor.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\System.Web.WebPages.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\NopFramework.Core.pdb
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\NopFramework.Data.pdb
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\Autofac.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\Autofac.Integration.Mvc.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\System.Web.Mvc.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\EntityFramework.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\System.Web.Razor.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\System.Web.WebPages.Razor.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\System.Web.WebPages.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\obj\Debug\NopFramework.Services.csprojResolveAssemblyReference.cache
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\obj\Debug\NopFramework.Services.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Services\obj\Debug\NopFramework.Services.pdb
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Services.dll.config
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Services.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Services.pdb
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Core.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Data.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Services\bin\Debug\Autofac.Integration.Mvc.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Services\bin\Debug\System.Web.Mvc.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Services\bin\Debug\EntityFramework.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Services\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Services\bin\Debug\System.Web.Razor.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Services\bin\Debug\System.Web.WebPages.Razor.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Services\bin\Debug\System.Web.WebPages.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Core.pdb
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Data.pdb
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Services\obj\Debug\NopFramework.Services.csprojResolveAssemblyReference.cache
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Services\obj\Debug\NopFramework.Services.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Services\obj\Debug\NopFramework.Services.pdb
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Core.dll.config
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Data.dll.config
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Services.dll.config
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Services.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Services.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Core.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Data.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Services\bin\Debug\Autofac.Integration.Mvc.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Services\bin\Debug\System.Web.Mvc.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Services\bin\Debug\EntityFramework.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Services\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Services\bin\Debug\System.Web.Razor.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Services\bin\Debug\System.Web.WebPages.Razor.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Services\bin\Debug\System.Web.WebPages.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Core.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Core.dll.config
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Data.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Data.dll.config
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Services\bin\Debug\Microsoft.Web.Infrastructure.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Services\obj\Debug\NopFramework.Services.csprojResolveAssemblyReference.cache
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Services\obj\Debug\NopFramework.Services.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Services\obj\Debug\NopFramework.Services.pdb
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Services.dll.config
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Services.dll
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Services.pdb
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Core.dll
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Data.dll
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Services\bin\Debug\Autofac.Integration.Mvc.dll
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Services\bin\Debug\System.Web.Mvc.dll
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Services\bin\Debug\EntityFramework.dll
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Services\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Services\bin\Debug\System.Web.Razor.dll
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Services\bin\Debug\System.Web.WebPages.Razor.dll
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Services\bin\Debug\System.Web.WebPages.dll
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Core.pdb
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Core.dll.config
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Data.pdb
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Services\bin\Debug\NopFramework.Data.dll.config
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Services\obj\Debug\NopFramework.Services.csprojResolveAssemblyReference.cache
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Services\obj\Debug\NopFramework.Services.dll
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Services\obj\Debug\NopFramework.Services.pdb
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\NopFramework.Services.dll.config
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\NopFramework.Services.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\NopFramework.Services.pdb
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\NopFramework.Core.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\NopFramework.Data.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\Autofac.Integration.Mvc.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\System.Web.Mvc.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\EntityFramework.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\System.Web.Razor.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\System.Web.WebPages.Razor.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\System.Web.WebPages.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\NopFramework.Core.pdb
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\NopFramework.Core.dll.config
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\NopFramework.Data.pdb
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\NopFramework.Data.dll.config
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\Microsoft.Web.Infrastructure.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Services\obj\Debug\NopFramework.Services.csprojResolveAssemblyReference.cache
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Services\obj\Debug\NopFramework.Services.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Services\obj\Debug\NopFramework.Services.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\NopFramework.Services.dll.config
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\NopFramework.Services.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\NopFramework.Services.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\NopFramework.Core.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\NopFramework.Data.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\System.Web.Mvc.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\Autofac.Integration.Mvc.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\EntityFramework.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\System.Web.Razor.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\System.Web.WebPages.Razor.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\System.Web.WebPages.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\NopFramework.Core.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\NopFramework.Core.dll.config
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\NopFramework.Data.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\NopFramework.Data.dll.config
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\System.Web.Mvc.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\Microsoft.Web.Infrastructure.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Services\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Services\obj\Debug\NopFramework.Services.csprojResolveAssemblyReference.cache
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Services\obj\Debug\NopFramework.Services.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Services\obj\Debug\NopFramework.Services.pdb

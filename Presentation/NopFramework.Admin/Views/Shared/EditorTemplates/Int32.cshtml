@@ -1,0 +1,10 @@
+﻿@model Int32
+@Html.TextBoxFor(model => model)
+<script>
+    $(document).ready(function () {
+        $("#@ViewData.TemplateInfo.GetFullHtmlFieldId(string.Empty)").kendoNumericTextBox({
+            formate: "#",
+            decimals:0
+        });
+    });
+</script>

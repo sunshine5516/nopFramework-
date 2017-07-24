@@ -1,0 +1,207 @@
+﻿@using NopFramework.Admin.Models.Plugins
+@using NopFramework.Web.Framework.UI
+@using NopFramework.Core.Infrastructure
+@using NopFramework.Web.Framework
+@model PluginListModel
+@{
+    //page title
+    ViewBag.Title = "本地插件";
+    var defaultGridPageSize = EngineContext.Current.Resolve<NopFramework.Core.Domains.Common.AdminAreaSettings>().DefaultGridPageSize;
+    var gridPageSizes = EngineContext.Current.Resolve<NopFramework.Core.Domains.Common.AdminAreaSettings>().GridPageSizes;
+    //active menu item (system name)
+    Html.SetActiveMenuItemSystemName("Local plugins");
+}
+@using (Html.BeginForm(null, null, FormMethod.Post, new { id = "plugins-form" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="content-header clearfix">
+        <h1 class="pull-left">
+            本地插件
+        </h1>
+        <div class="pull-right">
+            <button type="submit" name="plugin-reload-grid" class="btn bg-blue">重新加载</button>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $("button[name='plugin-reload-grid']").on("click", function (e) {
+                        showThrobber('@Html.Raw(HttpUtility.JavaScriptStringEncode("加载中"))');
+                    });
+                });
+            </script>
+        </div>
+    </div>
+    <div class="content">
+        <div class="form-horizontal">
+            <div class="panel-group">
+                <div class="panel panel-default panel-search">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>
+                                    <h4>手动安装插件</h4>
+                                    <ol>
+                                        <li>在 nopCommerce目录的 plugins文件夹中上传插件</li>
+                                        <li>重启应用程序(或点击重载插件列表按扭)</li>
+                                        <li>滚动插件列表来找到最近安装的插件</li>
+                                        <li>单击安装链接来安装插件</li>
+                                        <li>注意：如果将nopcommerce设置为中等信任,它们将删除你的\Plugins\bin\directory目录下的文件</li>
+                                    </ol>
+                                </p>
+                                <div class="form-group">
+                                    <div class="col-md-4">
+                                        @Html.NopFrameowrkLabelFor(model => model.SearchLoadModeId)
+                                    </div>
+                                    <div class="col-md-8">
+                                        @Html.NopFramoworkDropDownList("SearchLoadModeId", Model.AvailableLoadModes)
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-4">
+                                        @Html.NopFrameowrkLabelFor(model => model.SearchGroup)
+                                    </div>
+                                    <div class="col-md-8">
+                                        @Html.NopFramoworkDropDownList("SearchLoadModeId", Model.AvailableGroups)
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-8 col-md-offset-4">
+                                        <div>
+                                            <button type="button" id="search-plugins" class="btn btn-primary btn-search">
+                                                <i class="fa fa-search"></i>
+                                                搜索
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div id="plugins-grid"></div>
+                        <script>
+                            $(document).ready(function () {
+                                $("#plugins-grid").kendoGrid({
+                                   dataSource:{
+                                    type:"json",
+                                    transport:{
+                                        read:{
+                                            url:"@Html.Raw(Url.Action("ListSelect", "Plugin"))",
+                                            type:"POST",
+                                            dataType:"json",
+                                            data: additionalData
+                                        }
+                                    },
+                                    schema:{
+                                        data:"Data",
+                                        total:"Total",
+                                        errors: "Errors"
+                                        //,
+                                        //model: {
+                                        //    id: "Id",
+                                        //    fields: {
+                                        //        SentOn: { editable: false, type: "date" },
+                                        //    }
+                                        //}
+                                    },
+                                    error:function(e){
+                                        display_kendoui_grid_error(e);
+                                        this.cancelChanges();
+                                    },
+                                    pageSize:@(defaultGridPageSize),
+                                    serverPaging:true,
+                                    serverFiltering:true,
+                                    serverSorting:true
+                                },
+                                     pageable: {
+                                    refresh: true,
+                                    pageSizes:  [@(gridPageSizes)],
+                                    buttonCount: 5,
+                                    messages: {
+                                        display: "显示{0}-{1}条，共{2}条",
+                                        empty: "没有数据",
+                                        page: "页",
+                                        of: "/ {0}",
+                                        itemsPerPage: "条/页",
+                                        first: "第一页",
+                                        previous: "前一页",
+                                        next: "下一页",
+                                        last: "最后一页",
+                                        refresh: "刷新"
+                                    }
+                                   },
+                                   scrollable: false,
+                            columns: [
+                                         {
+                                            //field: "Group",
+                                            //title: "分组",
+                                            //width: 150
+                                    field: "Group",
+                                    headerTemplate: "<input id='mastercheckbox' type='checkbox'/>",
+                                    headerAttributes: { style: "text-align:center" },
+                                    attributes: { style: "text-align:center" },
+                                    width: 50
+                                }
+                                , {
+                                            field: "LogoUrl",
+                                            title: "Logo标记",
+                                            width: 200,
+                                            template: '<img src="#=LogoUrl#" />',
+                                            headerAttributes: { style: "text-align:center" },
+                                            attributes: { style: "text-align:center" }
+                                        }, {
+                                            field: "Description",
+                                            title: "插件信息",
+                                            template: '<b>#:FriendlyName#</b>' +
+                                                '# if(Description) {# <br />#:Description# #} #' +
+                                                //allow configuration only when a plugin has a configuration URL specified
+                                                '<br /> # if(ConfigurationUrl && ConfigurationUrl.length > 0) {# <a class="btn btn-primary" href="#=ConfigurationUrl#">配置</a>&nbsp;&nbsp;&nbsp; #} #' +
+                                                '<a class="btn bg-aqua" href="javascript:OpenWindow(\'@Url.Content("~/Plugin/EditPopup")?systemName=#=SystemName#&btnId=btnRefresh&formId=plugins-form\', 800, 500, true);">编辑</a>',
+                                            attributes: { style: "vertical-align:top;" },
+                                            width: 400
+                                        }, {
+                                            field: "FriendlyName",
+                                            title: "友好名称"
+                                        }, {
+                                            field: "Installed",
+                                            title: "安装",
+                                            template: '# if(Installed) {# <button type="submit" name="uninstall-plugin-link-#=SystemName#" class="btn bg-red uninstall-plugin-link">卸载</button> #} else {#  <button type="submit" name="install-plugin-link-#=SystemName#" class="btn bg-green install-plugin-link">安装</button> #} #',
+                                            headerAttributes: { style: "text-align:center" },
+                                            attributes: { style: "text-align:center" },
+                                            width: 150
+                                        }
+                                     ]
+                                });
+                            });
+                        </script>
+                    </div>
+                    <div>
+                        <script type="text/javascript">
+                            $(document).ready(function () {
+                                //search button
+                                $('#search-plugins').click(function () {
+                                    //search
+                                    var grid = $('#plugins-grid').data('kendoGrid');
+                                    grid.dataSource.read();
+
+                                    return false;
+                                });
+                            });
+
+                            function additionalData() {
+                                var data = {
+                                    SearchLoadModeId: $('#SearchLoadModeId').val(),
+                                    SearchGroup: $('#SearchGroup').val()
+                                };
+                                addAntiForgeryToken(data);
+                                return data;
+                            }
+                        </script>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+}

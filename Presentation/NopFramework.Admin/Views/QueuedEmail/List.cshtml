@@ -1,0 +1,305 @@
+﻿@using NopFramework.Web.Framework.UI
+@using NopFramework.Core.Infrastructure
+@using NopFramework.Web.Framework
+@using NopFramework.Admin.Models.Messages
+@model QueuedEmailListModel
+@{
+    var defaultGridPageSize = EngineContext.Current.Resolve<NopFramework.Core.Domains.Common.AdminAreaSettings>().DefaultGridPageSize;
+    var gridPageSizes = EngineContext.Current.Resolve<NopFramework.Core.Domains.Common.AdminAreaSettings>().GridPageSizes;
+    //Layout = null;
+    ViewBag.Title = "消息队列";
+    Html.SetActiveMenuItemSystemName("Queued emails");
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="content-header clearfix">
+        <h1 class="pull-left">消息队列</h1>
+        <div class="pull-right">
+            <button type="button" id="delete-selected" class="btn bg-red">
+                <i class="fa fa-trash-o"></i>
+                删除选择
+            </button>
+            <button type="submit" id="delete-all" name="delete-all" class="btn bg-red">
+                <i class="fa fa-trash-o"></i>
+                删除所有
+            </button>
+        </div>
+    </div>
+    <div class="content">
+        <div class="form-horizontal">
+            <div class="panel-group">
+                <div class="panel panel-default panel-search">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <div class="col-md-4">
+                                        @Html.NopFrameowrkLabelFor(model => model.SearchStartDate)
+                                    </div>
+                                    <div class="col-md-8">
+                                        @Html.EditorFor(model => model.SearchStartDate)
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-4">
+                                        @Html.NopFrameowrkLabelFor(model => model.SearchEndDate)
+                                    </div>
+                                    <div class="col-md-8">
+                                        @Html.NopFrameowrkEditorFor(model => model.SearchEndDate)
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-4">
+                                        @Html.NopFrameowrkLabelFor(model => model.SearchFromEmail)
+                                    </div>
+                                    <div class="col-md-8">
+                                        @Html.NopFrameowrkEditorFor(model => model.SearchFromEmail)
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-4">
+                                        @Html.NopFrameowrkLabelFor(model => model.SearchToEmail)
+                                    </div>
+                                    <div class="col-md-8">
+                                        @Html.NopFrameowrkEditorFor(model => model.SearchToEmail)
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-4">
+                                        @Html.NopFrameowrkLabelFor(model => model.SearchLoadNotSent)
+                                    </div>
+                                    <div class="col-md-8">
+                                        @Html.NopFrameowrkEditorFor(model => model.SearchLoadNotSent)
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-4">
+                                        @Html.NopFrameowrkLabelFor(model => model.SearchMaxSentTries)
+                                    </div>
+                                    <div class="col-md-8">
+                                        @Html.NopFrameowrkEditorFor(model => model.SearchMaxSentTries)
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-8 col-md-offset-4">
+                                        <button type="button" id="search-queuedemails" class="btn btn-primary btn-search">
+                                            <i class="fa fa-search"></i>
+                                            搜索
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div id="queued-grid"></div>
+                        <script>
+                            $(document).ready(function () {
+                                $("#queued-grid").kendoGrid({
+                                   dataSource:{
+                                    type:"json",
+                                    transport:{
+                                        read:{
+                                            url:"@Html.Raw(Url.Action("QueuedEmailList", "QueuedEmail"))",
+                                            type:"POST",
+                                            dataType:"json",
+                                            data: additionalData
+                                        }
+                                    },
+                                    schema:{
+                                        data:"Data",
+                                        total:"Total",
+                                        errors: "Errors"
+                                        //,
+                                        //model: {
+                                        //    id: "Id",
+                                        //    fields: {
+                                        //        SentOn: { editable: false, type: "date" },
+                                        //    }
+                                        //}
+                                    },
+                                    error:function(e){
+                                        display_kendoui_grid_error(e);
+                                        this.cancelChanges();
+                                    },
+                                    pageSize:@(defaultGridPageSize),
+                                    serverPaging:true,
+                                    serverFiltering:true,
+                                    serverSorting:true
+                                },
+                                     pageable: {
+                                    refresh: true,
+                                    pageSizes:  [@(gridPageSizes)],
+                                    buttonCount: 5,
+                                    messages: {
+                                        display: "显示{0}-{1}条，共{2}条",
+                                        empty: "没有数据",
+                                        page: "页",
+                                        of: "/ {0}",
+                                        itemsPerPage: "条/页",
+                                        first: "第一页",
+                                        previous: "前一页",
+                                        next: "下一页",
+                                        last: "最后一页",
+                                        refresh: "刷新"
+                                    }
+                                     },
+                                     scrollable: true,
+                                     dataBound: onDataBound,
+                            columns: [
+                                         {
+                                             field: "Id",
+                                             headerTemplate: "<input id='mastercheckbox' type='checkbox'/>",
+                                             headerAttributes: { style: "text-align:center" },
+                                             attributes: { style: "text-align:center" },
+                                             template: "<input type='checkbox' value='#=Id#' class='checkboxGroups'/>",
+                                             width: 50
+                                         }, {
+                                             field: "Id",
+                                             title: "队列中的ID",
+                                             width: 150
+                                         },
+                                         {
+                                             field: "From",
+                                             title: "发件人",
+                                             width: 150
+
+                                         },
+                                         {
+                                             field: "To",
+                                             title: "收件人",
+                                             width: 150
+                                         },
+                                         {
+                                             field: "CreatedOn",
+                                             title: "创建于",
+                                             width: 150,
+                                             type: "date",
+                                             format: "{0:G}"
+                                         },
+                                         {
+                                             field: "SentOn",
+                                             title: "发送于",
+                                             width: 150,
+                                             type: "date",
+                                             format: "{0:G}"
+
+                                        }, {
+                                             field: "Id",
+                                             title: "编辑",
+                                             width: 50,
+                                             //,
+                                             //template: '<a href="Edit/#=Id#>编辑</a>'
+                                             template: '<a href="Edit/#=Id#">编辑</a>'
+                                         }
+
+                                     ]
+                                });
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+
+            var selectedIds = [];
+            //search button
+            $('#search-queuedemails').click(function () {
+                //search
+                var grid = $('#queued-grid').data('kendoGrid');
+                grid.dataSource.page(1); //new search. Set page size to 1
+                //grid.dataSource.read(); we already loaded the grid above using "page" function
+                //clear selected checkboxes
+                $('.checkboxGroups').attr('checked', false).change();
+                selectedIds = [];
+                return false;
+            });
+        $(document).ready(function () {
+            $('#delete-selected').click(function (e) {
+                e.preventDefault();
+                var postData = {
+                    selectedIds: selectedIds
+                };
+                addAntiForgeryToken(postData);
+                $.ajax(
+                    {
+                        cache: false,
+                        type: "POST",
+                        url: "@(Url.Action("DeleteSelected", "QueuedEmail"))",
+                    data: postData,
+                    complete: function (data) {
+                        var grid = $('#queuedEmails-grid').data('kendoGrid');
+                        grid.dataSource.page(1);
+                        $('.checkboxGroups').attr('checked', false).change();
+                        selectedIds = [];
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        alert(thrownError);
+                    },
+                    traditional: true
+                });
+            return false;
+        });
+        $('#mastercheckbox').click(function () {
+            $('.checkboxGroups').attr('checked', $(this).is(':checked')).change();
+        });
+        $('#queued-grid').on('change', 'input[type=checkbox][id!=mastercheckbox]', function (e) {
+            var $check = $(this);
+            if ($check.is(":checked") == true) {
+                var checked = jQuery.inArray($check.val(), selectedIds);
+                if (checked == -1) {
+                    //add id to selectedIds.
+                    selectedIds.push($check.val());
+                }
+            }
+            else {
+                var checked = jQuery.inArray($check.val(), selectedIds);
+                if (checked > -1) {
+                    //remove id from selectedIds.
+                    selectedIds = $.grep(selectedIds, function (item, index) {
+                        return item != $check.val();
+                    });
+                }
+            }
+            updateMasterCheckbox();
+        });
+        });
+        function additionalData() {
+                                var data = {
+                                    SearchStartDate: $('#@Html.FieldIdFor(model => model.SearchStartDate)').val(),
+                                    SearchEndDate: $('#@Html.FieldIdFor(model => model.SearchEndDate)').val(),
+                                    SearchFromEmail: $('#@Html.FieldIdFor(model => model.SearchFromEmail)').val(),
+                                    SearchToEmail: $('#@Html.FieldIdFor(model => model.SearchToEmail)').val(),
+                                    SearchLoadNotSent: $('#@Html.FieldIdFor(model => model.SearchLoadNotSent)').is(':checked'),
+                                    SearchMaxSentTries: $('#@Html.FieldIdFor(model => model.SearchMaxSentTries)').val()
+                                };
+                                addAntiForgeryToken(data);
+                                return data;
+                            }
+
+                            function onDataBound(e) {
+
+                                $('#queuedEmails-grid input[type=checkbox][id!=mastercheckbox]').each(function() {
+                                    var currentId = $(this).val();
+                                    var checked = jQuery.inArray(currentId, selectedIds);
+                                    //set checked based on if current checkbox's value is in selectedIds.
+                                    $(this).attr('checked', checked > -1);
+                                });
+
+                                updateMasterCheckbox();
+                            }
+        function updateMasterCheckbox() {
+            var numChkBoxes = $('#queuedEmails-grid input[type=checkbox][id!=mastercheckbox]').length;
+            var numChkBoxesChecked = $('#queuedEmails-grid input[type=checkbox][id!=mastercheckbox]:checked').length;
+            $('#mastercheckbox').attr('checked', numChkBoxes == numChkBoxesChecked && numChkBoxes > 0);
+        }
+
+        </script>
+
+    </div>
+}

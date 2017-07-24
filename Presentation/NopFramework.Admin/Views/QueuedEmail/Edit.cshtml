@@ -1,0 +1,43 @@
+﻿@using NopFramework.Web.Framework.UI
+@using NopFramework.Core.Infrastructure
+@using NopFramework.Core.Domains.Common
+@using NopFramework.Admin.Models.Messages
+@model QueuedEmailModel
+@{
+    //page title
+    ViewBag.Title = "编辑消息队列项目";
+    //active menu item (system name)
+    Html.SetActiveMenuItemSystemName("Queued emails");
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="content-header clearfix">
+        <h1 class="pull-left">
+            编辑消息队列项目
+            <small><i class="fa fa-arrow-circle-left"></i>@Html.ActionLink("返回到消息队列", "List")</small>
+        </h1>
+        <div class="pull-right">
+            <button type="submit" name="requeue" class="btn bg-green">
+                <i class="fa fa-clone"></i>
+                重新队列
+            </button>
+            <button type="submit" name="save" class="btn bg-blue">
+                <i class="fa fa-floppy-o"></i>
+                保存
+            </button>
+            <button type="submit" name="save-continue" class="btn bg-blue">
+                <i class="fa fa-floppy-o"></i>
+                保存并继续
+            </button>
+            <span id="queuedEmail-delete" class="btn bg-red">
+                <i class="fa fa-trash-o"></i>
+                删除
+            </span>
+        </div>
+    </div>
+   @Html.Partial("_CreateOrUpdate", Model)
+}
+@*@Html.DeleteConfirmation("queuedEmail-delete")*@
+

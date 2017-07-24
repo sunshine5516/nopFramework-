@@ -1,0 +1,95 @@
+﻿@using NopFramework.Web.Framework.Menu
+@using NopFramework.Web.Framework.UI
+@{
+    var siteMap = new NopFramework.Web.Framework.Menu.XmlSiteMap();
+    siteMap.LoadFrom("~/sitemap.config");
+}
+@helper RenderMenuItem(NopFramework.Web.Framework.Menu.SiteMapNode item, bool supportRtl)
+{
+    string url = null;
+    if (!string.IsNullOrEmpty(item.ControllerName) && !string.IsNullOrEmpty(item.ActionName))
+    {
+        url = Url.Action(item.ActionName, item.ControllerName, item.RouteValues, null, null);
+    }
+    else if (!string.IsNullOrEmpty(item.Url))
+    {
+        url = item.Url.StartsWith("~/", StringComparison.Ordinal) ? Url.Content(item.Url) : item.Url;
+    }
+    var isActive = item.ContainsSystemName(Html.GetActiveMenuItemSystemName());
+    //var isActive = true;
+    if (!String.IsNullOrEmpty(url))
+    {
+        <li @(isActive ? Html.Raw("class=\"active current-active-item\"") : null)>
+            <a href="@url" class="menu-item-link">
+                @if (!String.IsNullOrEmpty(item.IconClass))
+                {
+                    <text>
+                        <i class="fa @Url.Content(item.IconClass)"></i>
+                    </text>
+                }
+                <span class="menu-item-title">@item.Title</span>
+            </a>
+        </li>
+}
+else
+{
+        <li class="treeview @(isActive ? Html.Raw("active current-active-item") : null)">
+            <a href="#">
+                @if (!String.IsNullOrEmpty(item.IconClass))
+                {
+                    <text>
+                        <i class="fa @Url.Content(item.IconClass)"></i>
+                    </text>
+                }
+                <span>@item.Title</span>
+                @if (supportRtl)
+{
+                    <i class="fa fa-angle-right pull-right"></i>
+                }
+                else
+                {
+                    <i class="fa fa-angle-left pull-right"></i>
+                }
+            </a>
+
+            @{ var childNodes = item.ChildNodes.Where(x => x.Visible).ToList(); }
+            @if (childNodes.Any())
+            {
+                <ul class="treeview-menu">
+                    @foreach (var childItem in childNodes)
+{
+    @RenderMenuItem(childItem, supportRtl)
+                    }
+                </ul>
+            }
+        </li>
+                }
+}
+
+<ul class="sidebar-menu">
+    @{
+        //standard (default) items
+        var rootNode = siteMap.RootNode;
+
+        //plugins
+        //var adminMenuPlugins = EngineContext.Current.Resolve<NopFramework.Core.Plugins.IPluginFinder>()
+        //    .GetPlugins<IAdminMenuPlugin>()
+        //    .ToList();
+        //foreach (var adminMenuPlugin in adminMenuPlugins)
+        //{
+        //    adminMenuPlugin.ManageSiteMap(rootNode);
+        //}
+        //"Plugins" menu item should be visible when it has some child nodes
+        var pluginNode = rootNode.ChildNodes.FirstOrDefault(x => x.SystemName == "Third party plugins");
+        if (pluginNode != null && pluginNode.Visible)
+        {
+            //var permissionService = EngineContext.Current.Resolve<NopFramework.Services.Security.IPermissionService>();
+            //var hasManagePluginsPermission = permissionService.Authorize(NopFramework.Services.Security.StandardPermissionProvider.ManagePlugins);
+            pluginNode.Visible = pluginNode.ChildNodes.Any(x => x.Visible);
+        }
+    }
+    @foreach (var item in rootNode.ChildNodes.Where(x => x.Visible))
+    {
+        @RenderMenuItem(item, true)
+    }
+</ul>

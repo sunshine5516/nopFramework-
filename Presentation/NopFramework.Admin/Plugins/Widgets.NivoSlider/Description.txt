@@ -1,0 +1,9 @@
+Group: Widgets
+FriendlyName: Nivo Slider
+SystemName: Widgets.NivoSlider
+Version: 1.00
+SupportedVersions: 1.00
+Author: Jayson
+DisplayOrder: 1
+FileName: Plugin.Widgets.NivoSlider.dll
+Description: Ö÷Ò³ÂÖ²¥Í¼

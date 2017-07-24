@@ -1,0 +1,187 @@
+﻿@using NopFramework.Web.Framework.UI
+@using NopFramework.Core.Infrastructure
+@using NopFramework.Core.Domains.Common
+@{
+    var defaultGridPageSize = EngineContext.Current.Resolve<NopFramework.Core.Domains.Common.AdminAreaSettings>().DefaultGridPageSize;
+    var gridPageSizes = EngineContext.Current.Resolve<NopFramework.Core.Domains.Common.AdminAreaSettings>().GridPageSizes;
+
+    ViewBag.Title = "邮件帐户";
+    //active menu item (system name)
+    Html.SetActiveMenuItemSystemName("Email accounts");
+}
+
+@Html.AntiForgeryToken()
+<div class="content-header clearfix">
+    <h1 class="pull-left">
+        邮件帐户
+    </h1>
+    <div class="pull-right">
+        <a href="@Url.Action("Create")" class="btn bg-blue">
+            <i class="fa fa-plus-square"></i>
+            添加
+        </a>
+        <button type="button" id="delete-selected" class="btn bg-red">
+            <i class="fa fa-trash-o"></i>
+            删除所选
+        </button>
+    </div>
+</div>
+
+<div class="content">
+    <div class="form-horizontal">
+        <div class="panel-group">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div id="email-accounts-grid"></div>
+                    <script>
+                        $(document).ready(function(){
+                            $("#email-accounts-grid").kendoGrid({
+                                dataSource:{
+                                    type:"json",
+                                    transport:{
+                                        read:{
+                                            url:"@Html.Raw(Url.Action("List", "EmailAccount"))",
+                                            type:"POST",
+                                            dataType:"json",
+                                            data:addAntiForgeryToken
+                                        }
+                                    },
+                                    schema:{
+                                        data:"Data",
+                                        total:"Total",
+                                        errors:"Errors"
+                                    },
+                                    error:function(e){
+                                        display_kendoui_grid_error(e);
+                                        this.cancelChanges();
+                                    },
+                                    pageSize:@(defaultGridPageSize),
+                                    serverPaging:true,
+                                    serverFiltering:true,
+                                    serverSorting:true
+                                },
+                                pageable: {
+                                    refresh: true,
+                                    pageSizes:  [@(gridPageSizes)],
+                                    buttonCount: 5,
+                                    messages: {
+                                        display: "显示{0}-{1}条，共{2}条",
+                                        empty: "没有数据",
+                                        page: "页",
+                                        of: "/ {0}",
+                                        itemsPerPage: "条/页",
+                                        first: "第一页",
+                                        previous: "前一页",
+                                        next: "下一页",
+                                        last: "最后一页",
+                                        refresh: "刷新"
+                                    }
+                                },
+                                editable:{
+                                    confirmation: "确认删除",
+                                    mode: "inline"
+                                },
+                                scrollable:true,
+                                columns:[
+                                {
+                                    field:"Id",
+                                    headerTemplate:"<input id='mastercheckbox' type='checkbox'/>",
+                                    headerAttributes:{style: "text-align:center"},
+                                    attributes:{ style: "text-align:center" },
+                                    template: "<input type='checkbox' value='#=Id#' class='checkboxGroups'/>",
+                                    width: 50
+                                },
+                                {
+                                    field:"Email",
+                                    title:"邮件地址"
+                                },
+                                {
+                                    field: "DisplayName",
+                                    title: "邮件友好名称",
+                                    width: 200
+                                }, {
+                                    field: "IsDefaultEmailAccount",
+                                    title: "是默认邮件帐户",
+                                    width: 200,
+                                    headerAttributes: { style: "text-align:center" },
+                                    attributes: { style: "text-align:center" },
+                                    template: '# if(IsDefaultEmailAccount) {# <i class="fa fa-check true-icon"></i> #} else {# <i class="fa fa-close false-icon"></i> #} #'
+                                }, {
+                                    field: "Id",
+                                    title: "标记为默认邮件帐户",
+                                    template: '<a href="@Url.Content("~/EmailAccount/MarkAsDefaultEmail/")#=Id#" class="btn bg-green">标记为默认邮件账户</a>'
+                                }, {
+                                    field: "Id",
+                                    title: "编辑",
+                                    width: 100,
+                                    template: '<a href="Edit/#=Id#">编辑</a>'
+                                }
+                                ]
+                            });
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var selectedIds = [];
+        $(document).ready(function () {
+
+            $("#delete-selected").click(function(e){
+                e.preventDefault();
+                var postData = {
+                    selectedIds: selectedIds
+                };
+                addAntiForgeryToken(postData);
+                $.ajax({
+                    cache: false,
+                    type: "POST",
+                    url: "@(Url.Action("DeleteSelected", "EmailAccount"))",
+                    data: postData,
+                    complete: function(data) {
+                        //reload grid
+                        var grid = $('#email-accounts-grid').data('kendoGrid');
+                        grid.dataSource.read();
+                    },
+                    error: function(xhr, ajaxOptions, thrownError) {
+                        alert(thrownError);
+                    },
+                    traditional: true
+                });
+                return false;
+            });
+
+            $('#mastercheckbox').click(function () {
+                $('.checkboxGroups').attr('checked', $(this).is(':checked')).change();
+            });
+            //checkboxes.
+            $('#email-accounts-grid').on('change', 'input[type=checkbox][id!=mastercheckbox]', function (e) {
+                var $check = $(this);
+                if ($check.is(":checked") == true) {
+                    var checked = jQuery.inArray($check.val(), selectedIds);
+                    if (checked == -1) {
+                        //add id to selectedIds.
+                        selectedIds.push($check.val());
+                    }
+                }
+                else {
+                    var checked = jQuery.inArray($check.val(), selectedIds);
+                    if (checked > -1) {
+                        //remove id from selectedIds.
+                        selectedIds = $.grep(selectedIds, function (item, index) {
+                            return item != $check.val();
+                        });
+                    }
+                }
+                updateMasterCheckbox();
+            });
+
+        });
+        function updateMasterCheckbox() {
+            var numChkBoxes = $('#email-accounts-grid input[type=checkbox][id!=mastercheckbox]').length;
+            var numChkBoxesChecked = $('#email-accounts-grid input[type=checkbox][id!=mastercheckbox]:checked').length;
+            $('#mastercheckbox').attr('checked', numChkBoxes == numChkBoxesChecked && numChkBoxes > 0);
+        }
+    </script>
+</div>

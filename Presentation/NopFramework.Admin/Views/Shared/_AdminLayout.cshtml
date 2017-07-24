@@ -1,0 +1,249 @@
+﻿@using NopFramework.Core.Infrastructure
+@using NopFramework.Core.Domains.Localization
+@using NopFramework.Web.Framework.UI
+@using NopFramework.Web.Framework
+@{
+    var kendoVersion = "2014.1.318";
+    //var supportRtl = EngineContext.Current.Resolve<IWorkContext>().WorkingLanguage.Rtl &&
+    //    !EngineContext.Current.Resolve<LocalizationSettings>().IgnoreRtlPropertyForAdminArea;
+    //@Styles.Render
+   
+    @Styles.Render("~/Content/adminLTE/AdminLTE-2.3.0.min.css");
+    @Styles.Render("~/Content/bootstrap/css/bootstrap.min.css");
+    @Styles.Render(string.Format("~/Content/kendo/{0}/kendo.rtl.min.css", kendoVersion));
+    @Styles.Render(string.Format("~/Content/kendo/{0}/kendo.common.min.css", kendoVersion));
+    @Styles.Render(string.Format("~/Content/kendo/{0}/kendo.default.min.css", kendoVersion));
+   
+
+    @Styles.Render("~/Content/styles.css");
+    @Styles.Render("~/Content/jquery-ui-themes/smoothness/jquery-ui-1.10.3.custom.min.css");
+    @Styles.Render("~/Content/fontAwesome/css/font-awesome-4.6.3.min.css");
+    @Styles.Render("~/Content/typeahead/typeahead.css");
+    <!-- AdminLTE Skins (choose a skin from the css/skins) -->
+    @*@Styles.Render("~/Content/adminLTE/skins/_all-skins.min.css");*@
+    @Styles.Render("~/Content/adminLTE/skins/skin-yellow.css");
+    //scripts
+    @Scripts.Render("~/Scripts/jquery-1.10.2.min.js");
+    @Scripts.Render(string.Format("~/Scripts/kendo/{0}/kendo.web.min.js", kendoVersion));
+    @Scripts.Render("~/Scripts/admin.search.js");
+    @Scripts.Render("~/scripts/admin.navigation.js");
+    @Scripts.Render("~/Scripts/admin.common.js");
+    @Scripts.Render("~/Scripts/typeahead/typeahead.bundle.min.js");
+    @Scripts.Render("~/Scripts/jquery-ui-1.10.3.custom.min.js");
+    @Scripts.Render("~/Scripts/jquery-migrate-1.2.1.min.js");
+    
+    
+    @Scripts.Render("~/Scripts/adminLTE/app.min.js");
+    @Scripts.Render("~/Scripts/bootstrap/bootstrap.min.js");
+    @Scripts.Render("~/Scripts/jquery.validate.min.js");
+    @Scripts.Render("~/Scripts/jquery.validate.unobtrusivesds.min.js");
+    
+    
+    //@Styles.Render("~/Content/styles.css");
+    //@Styles.Render("~/Content/adminLTE/AdminLTE-2.3.0.min.css");
+    //@Styles.Render("~/Content/bootstrap/css/bootstrap.min.css");
+    //@Styles.Render(string.Format("~/Content/kendo/{0}/kendo.rtl.min.css", kendoVersion));
+    //@Styles.Render(string.Format("~/Content/kendo/{0}/kendo.default.min.css", kendoVersion));
+    //@Styles.Render(string.Format("~/Content/kendo/{0}/kendo.common.min.css", kendoVersion));
+    //@Styles.Render("~/Content/jquery-ui-themes/smoothness/jquery-ui-1.10.3.custom.min.css");
+    //@Styles.Render("~/Content/fontAwesome/css/font-awesome-4.6.3.min.css");
+    //@Styles.Render("~/Content/typeahead/typeahead.css");
+    <!-- AdminLTE Skins (choose a skin from the css/skins) -->
+    //@Styles.Render("~/Content/adminLTE/skins/_all-skins.min.css");
+
+    ////scripts
+    //Html.AppendScriptParts(string.Format("~/Scripts/kendo/{0}/kendo.web.min.js", kendoVersion));
+    //Html.AppendScriptParts("~/Scripts/admin.search.js");
+    //Html.AppendScriptParts("~/scripts/admin.navigation.js");
+    //Html.AppendScriptParts("~/Scripts/admin.common.js");
+    //Html.AppendScriptParts("~/Scripts/typeahead/typeahead.bundle.min.js");
+    //Html.AppendScriptParts("~/Scripts/jquery-migrate-1.2.1.min.js");
+    //Html.AppendScriptParts("~/Scripts/jquery-ui-1.10.3.custom.min.js");
+    //Html.AppendScriptParts("~/Scripts/jquery.validate.unobtrusive.min.js");
+    //Html.AppendScriptParts("~/Scripts/jquery.validate.min.js");
+    //Html.AppendScriptParts("~/Scripts/adminLTE/app.min.js");
+    //Html.AppendScriptParts("~/Scripts/bootstrap/bootstrap.min.js");
+    //Html.AppendScriptParts("~/Scripts/jquery-1.10.2.min.js");
+
+    //sidebar
+    const string hideSidebarAttributeName = "HideSidebar";
+    //var hideSidebar = EngineContext.Current.Resolve<IWorkContext>().CurrentCustomer.GetAttribute<bool>(hideSidebarAttributeName);
+
+}
+<!DOCTYPE html>
+@*<html@(supportRtl ? Html.Raw(" dir=\"rtl\"") : null)>
+    </html>*@
+<html>
+<head>
+    <title>Index</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+</head>
+<body class="hold-transition skin-yellow sidebar-mini">
+    <div class="throbber">
+        <div class="curtain">
+        </div>
+        <div class="curtain-content">
+            <div>
+                <h1 class="throbber-header">"Common.Wait..."</h1>
+                <p>
+                    <img src="@Url.Content("~/content/images/throbber-synchronizing.gif")" alt="" />
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="ajaxBusy">
+        <span>&nbsp;</span>
+    </div>
+
+    @*@Html.Partial("Notifications")*@
+    <div class="wrapper">
+        @*@if (IsSectionDefined("header"))
+            {
+                @RenderSection("header")
+            }
+            else
+            {*@
+        @*@Html.Widget("admin_header_before", area: "Admin")*@
+        <div class="main-header">
+            <a href="@Url.Content("~")" class="logo">
+                <!-- mini logo for sidebar mini 50x50 pixels -->
+                <span class="logo-mini"></span>
+                <!-- logo for regular state and mobile devices -->
+                <span class="logo-lg"></span>
+            </a>
+            <div class="navbar navbar-static-top" role="navigation">
+                <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                    <span class="sr-only">&nbsp;</span>
+                </a>
+                @*@Html.Widget("admin_header_toggle_after", area: "Admin")*@
+                <div class="navbar-custom-menu">
+                    @*@Html.Widget("admin_header_navbar_before", area: "Admin")*@
+                    <ul class="nav navbar-nav">
+                        <li>
+                            @*@Html.Action("LanguageSelector", "Common", new { area = "Admin" })*@
+                        </li>
+                        <li class="account-info">
+                            阳光孙
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Logout", "Customer", new {area = ""}, null)">
+                                注销
+                            </a>
+                        </li>
+                        @*@if (currentCustomer.IsRegistered())
+                            {
+                                <li class="account-info">
+                                    @currentCustomer.GetFullName()
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("Logout", "Customer", new {area = ""}, null)">
+                                        @T("Admin.Header.Logout")
+                                    </a>
+                                </li>
+                            }*@
+                        <li>
+                            @*@Html.Widget("admin_header_middle", area: "Admin")*@
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Index", "Home", new {area = ""})">
+                                返回前台
+                            </a>
+                        </li>
+                        @*@if (canManageMaintenance)
+                            {*@
+                        <li class="dropdown">
+                            <a href="#" data-toggle="dropdown"><i class="fa fa-gears"></i></a>
+                            <ul class="maintenance-menu dropdown-menu bg-light-blue" role="menu">
+                                <li>
+                                    @using (Html.BeginForm("ClearCache", "Common", new { area = "Admin" }))
+                                    {
+                                    @Html.AntiForgeryToken()
+                                    @Html.Hidden("returnurl", HttpContext.Current.Request.RawUrl)
+                                    <button type="submit" class="bg-light-blue">
+                                        <span>清除缓存</span>
+                                    </button>
+                                    }
+                                </li>
+                                <li>
+                                    @using (Html.BeginForm("RestartApplication", "Common", new { area = "Admin" }))
+                                    {
+                                    @Html.AntiForgeryToken()
+                                    @Html.Hidden("returnurl", HttpContext.Current.Request.RawUrl)
+                                    <button id="restart-application" type="submit" class="bg-light-blue">
+                                        <span>重启商城</span>
+                                    </button>
+                                    <script type="text/javascript">
+                                                        $(document).ready(function () {
+                                                            $("#restart-application").click(function (e) {
+                                                                showThrobber('@Html.Raw(HttpUtility.JavaScriptStringEncode("Admin.Header.RestartApplication.Progress"))');
+                                                            });
+                                                        });
+                                    </script>
+                                    }
+                                </li>
+                            </ul>
+                        </li>
+                        @*}*@
+                    </ul>
+                    @*@Html.Widget("admin_header_navbar_after", area: "Admin")*@
+                </div>
+            </div>
+        </div>
+        <div class="main-sidebar">
+            <div class="sidebar">
+                <div class="sidebar-form">
+                    <div id="search-box">
+                        <input type="text" class="form-control admin-search-box typeahead" placeholder="搜索">
+                    </div>
+                </div>
+                <script>
+                            $(document).ready(function () {
+                                Admin.Search.init();
+                            });
+                </script>
+                @Html.Partial("Menu")
+            </div>
+        </div>
+        @*@Html.Widget("admin_header_after", area: "Admin")*@
+        @*}*@
+        <div class="content-wrapper">
+            <div>
+                @RenderBody()
+            </div>
+        </div>
+        <div class="main-footer clearfix">
+            <div class="pull-left">
+                Powered by <a href="http://www.nopcommerce.com/?utm_source=admin-panel&utm_medium=footer&utm_campaign=admin-panel" target="_blank">nopCommerce</a>
+            </div>
+            <div class="pull-right hidden-xs">
+                <b>nopCommerce version 1.0</b>
+            </div>
+            <div class="text-center">
+                
+            </div>
+        </div>
+    </div>
+    <script>
+            var AdminLTEOptions = {
+                boxWidgetOptions: {
+                    boxWidgetIcons: {
+                        collapse: 'fa-minus',
+                        open: 'fa-plus'
+                    }
+                }
+            };
+        </script>
+    <a id="backTop" class="btn btn-back-top bg-teal"></a>
+    <script>
+            $(document).ready(function () {
+                $('#backTop').backTop();
+
+                $('a.sidebar-toggle').on('click', function () {
+                    var collapsed = $('body').hasClass('sidebar-collapse');
+                    saveUserPreferences('@(Url.Action("SavePreference", "Preferences"))', '@hideSidebarAttributeName', collapsed);
+                });
+            });
+    </script>
+</body>
+</html>

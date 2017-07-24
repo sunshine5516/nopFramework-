@@ -1,0 +1,611 @@
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Data.pdb
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\ApplicationInsights.config
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\csc.exe
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\System.Collections.Immutable.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\System.Reflection.Metadata.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\vbc.exe
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\VBCSCompiler.exe
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\VBCSCompiler.exe.config
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Admin.dll.config
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Admin.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Admin.pdb
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Antlr3.Runtime.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Autofac.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\AutoMapper.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\EntityFramework.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\EntityFramework.SqlServer.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.DependencyCollector.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.Web.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.WindowsServer.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.ApplicationInsights.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Google.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Web.Infrastructure.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Newtonsoft.Json.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Core.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Data.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Services.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Web.Framework.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Owin.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.Helpers.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.Mvc.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.Optimization.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.Razor.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.WebPages.Deployment.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.WebPages.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.WebPages.Razor.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\WebGrease.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Autofac.Integration.Mvc.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Core.pdb
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Services.pdb
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Web.Framework.pdb
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Autofac.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\AutoMapper.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.DependencyCollector.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.Web.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.WindowsServer.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.ApplicationInsights.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.Helpers.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.Mvc.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.Optimization.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.Razor.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.WebPages.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.WebPages.Deployment.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.WebPages.Razor.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Antlr3.Runtime.pdb
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Newtonsoft.Json.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\EntityFramework.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\EntityFramework.SqlServer.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Google.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.Helpers.resources.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.Optimization.resources.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\EntityFramework.resources.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.AspNet.Identity.Core.resources.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.resources.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.resources.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.Facebook.resources.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.Google.resources.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\obj\Debug\NopFramework.Admin.csprojResolveAssemblyReference.cache
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\obj\Debug\NopFramework.Admin.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\obj\Debug\NopFramework.Admin.pdb
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Core.dll.config
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Data.dll.config
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Services.dll.config
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Web.Framework.dll.config
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\ApplicationInsights.config
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\csc.exe
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\System.Collections.Immutable.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\System.Reflection.Metadata.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\vbc.exe
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\VBCSCompiler.exe
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\VBCSCompiler.exe.config
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Admin.dll.config
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Admin.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Admin.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Antlr3.Runtime.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Autofac.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\AutoMapper.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\EntityFramework.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\EntityFramework.SqlServer.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\FluentValidation.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\FluentValidation.Mvc.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.DependencyCollector.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.Web.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.WindowsServer.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.ApplicationInsights.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Google.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Web.Infrastructure.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Newtonsoft.Json.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Core.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Data.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Services.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Web.Framework.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Owin.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.Helpers.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.Mvc.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.Optimization.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.Razor.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.WebPages.Deployment.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.WebPages.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.WebPages.Razor.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\WebGrease.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Autofac.Integration.Mvc.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Core.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Core.dll.config
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Data.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Data.dll.config
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Services.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Services.dll.config
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Web.Framework.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Web.Framework.dll.config
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Autofac.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\AutoMapper.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\FluentValidation.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\FluentValidation.Mvc.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.DependencyCollector.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.Web.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.WindowsServer.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.ApplicationInsights.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.Helpers.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.Mvc.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.Optimization.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.Razor.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.WebPages.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.WebPages.Deployment.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.WebPages.Razor.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Antlr3.Runtime.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Newtonsoft.Json.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\EntityFramework.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\EntityFramework.SqlServer.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Google.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.Helpers.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.Mvc.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.Optimization.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.Razor.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.WebPages.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\EntityFramework.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.AspNet.Identity.Core.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.AspNet.Identity.Owin.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Host.SystemWeb.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.Facebook.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.Google.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\obj\Debug\NopFramework.Admin.csprojResolveAssemblyReference.cache
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\obj\Debug\NopFramework.Admin.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Presentation\NopFramework.Admin\obj\Debug\NopFramework.Admin.pdb
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\FluentValidation.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\FluentValidation.Mvc.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\FluentValidation.xml
+E:\Code\nopCommerce\nopFramework\nopFramework\Presentation\NopFramework.Admin\bin\FluentValidation.Mvc.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\ApplicationInsights.config
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\csc.exe
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\System.Collections.Immutable.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\System.Reflection.Metadata.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\vbc.exe
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\VBCSCompiler.exe
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\roslyn\VBCSCompiler.exe.config
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Admin.dll.config
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Admin.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Admin.pdb
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Antlr3.Runtime.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Autofac.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\AutoMapper.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\EntityFramework.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\EntityFramework.SqlServer.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\FluentValidation.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\FluentValidation.Mvc.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.DependencyCollector.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.Web.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.WindowsServer.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.ApplicationInsights.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Google.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Web.Infrastructure.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Newtonsoft.Json.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Core.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Data.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Services.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Web.Framework.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Owin.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.Helpers.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.Mvc.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.Optimization.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.Razor.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.WebPages.Deployment.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.WebPages.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.WebPages.Razor.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\WebGrease.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Autofac.Integration.Mvc.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Core.pdb
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Core.dll.config
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Data.pdb
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Data.dll.config
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Services.pdb
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Services.dll.config
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Web.Framework.pdb
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\NopFramework.Web.Framework.dll.config
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Autofac.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\AutoMapper.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\FluentValidation.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\FluentValidation.Mvc.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.DependencyCollector.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.Web.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AI.WindowsServer.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.ApplicationInsights.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.Helpers.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.Mvc.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.Optimization.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.Razor.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.WebPages.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.WebPages.Deployment.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\System.Web.WebPages.Razor.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Antlr3.Runtime.pdb
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Newtonsoft.Json.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\EntityFramework.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\EntityFramework.SqlServer.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Google.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.Helpers.resources.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.Optimization.resources.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\EntityFramework.resources.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.AspNet.Identity.Core.resources.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.resources.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.resources.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.Facebook.resources.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.Google.resources.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\obj\Debug\NopFramework.Admin.csprojResolveAssemblyReference.cache
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\obj\Debug\NopFramework.Admin.dll
+E:\Code\nopCommerce\nopFramework\Presentation\NopFramework.Admin\obj\Debug\NopFramework.Admin.pdb
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\ApplicationInsights.config
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\roslyn\csc.exe
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\roslyn\System.Collections.Immutable.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\roslyn\System.Reflection.Metadata.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\roslyn\vbc.exe
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\roslyn\VBCSCompiler.exe
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\roslyn\VBCSCompiler.exe.config
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Admin.dll.config
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Admin.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Admin.pdb
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Antlr3.Runtime.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Autofac.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\AutoMapper.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\EntityFramework.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\EntityFramework.SqlServer.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\FluentValidation.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\FluentValidation.Mvc.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AI.DependencyCollector.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AI.Web.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AI.WindowsServer.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.ApplicationInsights.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Google.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Web.Infrastructure.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Newtonsoft.Json.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Core.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Data.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Services.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Web.Framework.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Owin.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.Helpers.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.Mvc.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.Optimization.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.Razor.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.WebPages.Deployment.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.WebPages.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.WebPages.Razor.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\WebGrease.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Autofac.Integration.Mvc.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Core.pdb
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Core.dll.config
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Data.pdb
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Data.dll.config
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Services.pdb
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Services.dll.config
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Web.Framework.pdb
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Web.Framework.dll.config
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Autofac.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\AutoMapper.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\FluentValidation.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\FluentValidation.Mvc.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AI.DependencyCollector.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AI.Web.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AI.WindowsServer.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.ApplicationInsights.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.Helpers.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.Mvc.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.Optimization.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.Razor.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.WebPages.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.WebPages.Deployment.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.WebPages.Razor.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Antlr3.Runtime.pdb
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Newtonsoft.Json.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\EntityFramework.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\EntityFramework.SqlServer.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Google.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.Helpers.resources.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.Mvc.resources.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.Optimization.resources.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.Razor.resources.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.WebPages.resources.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\EntityFramework.resources.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.AspNet.Identity.Core.resources.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.AspNet.Identity.Owin.resources.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.resources.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Host.SystemWeb.resources.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.resources.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.Facebook.resources.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.Google.resources.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\obj\Debug\NopFramework.Admin.csprojResolveAssemblyReference.cache
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\obj\Debug\NopFramework.Admin.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Presentation\NopFramework.Admin\obj\Debug\NopFramework.Admin.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\ApplicationInsights.config
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\roslyn\csc.exe
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\roslyn\System.Collections.Immutable.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\roslyn\System.Reflection.Metadata.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\roslyn\vbc.exe
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\roslyn\VBCSCompiler.exe
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\roslyn\VBCSCompiler.exe.config
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Admin.dll.config
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Admin.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Admin.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Antlr3.Runtime.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Autofac.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\AutoMapper.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\EntityFramework.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\EntityFramework.SqlServer.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\FluentValidation.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\FluentValidation.Mvc.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AI.DependencyCollector.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AI.Web.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AI.WindowsServer.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.ApplicationInsights.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Google.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Web.Infrastructure.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Newtonsoft.Json.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Core.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Data.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Services.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Web.Framework.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Owin.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.Helpers.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.Mvc.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.Optimization.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.Razor.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.WebPages.Deployment.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.WebPages.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.WebPages.Razor.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\WebGrease.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Autofac.Integration.Mvc.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\ImageResizer.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Core.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Core.dll.config
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Data.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Data.dll.config
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Services.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Services.dll.config
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Web.Framework.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\NopFramework.Web.Framework.dll.config
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Autofac.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\AutoMapper.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\FluentValidation.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\FluentValidation.Mvc.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AI.DependencyCollector.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AI.Web.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AI.WindowsServer.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.ApplicationInsights.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.Helpers.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.Mvc.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.Optimization.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.Razor.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.WebPages.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.WebPages.Deployment.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\System.Web.WebPages.Razor.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Antlr3.Runtime.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Newtonsoft.Json.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\EntityFramework.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\EntityFramework.SqlServer.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Google.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.Helpers.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.Mvc.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.Optimization.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.Razor.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.WebPages.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\EntityFramework.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.AspNet.Identity.Core.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.AspNet.Identity.Owin.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Host.SystemWeb.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.Facebook.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.Google.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\obj\Debug\NopFramework.Admin.csprojResolveAssemblyReference.cache
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\obj\Debug\NopFramework.Admin.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Presentation\NopFramework.Admin\obj\Debug\NopFramework.Admin.pdb

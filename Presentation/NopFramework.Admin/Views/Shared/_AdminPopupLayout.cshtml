@@ -1,0 +1,54 @@
+﻿@using NopFramework.Core.Infrastructure
+@using NopFramework.Core.Domains.Localization
+@using NopFramework.Web.Framework.UI
+@using NopFramework.Web.Framework
+@{
+    var kendoVersion = "2014.1.318";
+
+        
+        @Styles.Render("~/Content/adminLTE/AdminLTE-2.3.0.min.css");
+        @Styles.Render("~/Content/bootstrap/css/bootstrap.min.css");
+    @Styles.Render(string.Format("~/Content/kendo/{0}/kendo.rtl.min.css", kendoVersion));
+    @Styles.Render(string.Format("~/Content/kendo/{0}/kendo.common.min.css", kendoVersion));
+    @Styles.Render(string.Format("~/Content/kendo/{0}/kendo.default.min.css", kendoVersion));
+    @Styles.Render("~/Content/styles.css");
+    @Styles.Render("~/Content/jquery-ui-themes/smoothness/jquery-ui-1.10.3.custom.min.css");
+    @Styles.Render("~/Content/fontAwesome/css/font-awesome-4.6.3.min.css");
+    <!-- AdminLTE Skins (choose a skin from the css/skins) -->
+    @Styles.Render("~/Content/adminLTE/skins/_all-skins.min.css");
+
+    //scripts
+    @Scripts.Render("~/Scripts/jquery-1.10.2.min.js");
+    @Scripts.Render(string.Format("~/Scripts/kendo/{0}/kendo.web.min.js", kendoVersion));
+    @Scripts.Render("~/Scripts/jquery-1.10.2.min.js");
+    @Scripts.Render(string.Format("~/Scripts/kendo/{0}/kendo.web.min.js", kendoVersion));
+    @Scripts.Render("~/Scripts/admin.common.js");
+    @Scripts.Render("~/Scripts/jquery-migrate-1.2.1.min.js");
+    @Scripts.Render("~/Scripts/jquery-ui-1.10.3.custom.min.js");
+    @Scripts.Render("~/Scripts/jquery.validate.unobtrusive.min.js");
+    @Scripts.Render("~/Scripts/jquery.validate.min.js");
+    @Scripts.Render("~/Scripts/adminLTE/app.min.js");
+    @Scripts.Render("~/Scripts/bootstrap/bootstrap.min.js");
+   
+
+    //page title
+    string adminPageTitle = !String.IsNullOrWhiteSpace(ViewBag.Title) ? ViewBag.Title + " / " : "";
+    adminPageTitle += "Admin.PageTitle";
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@adminPageTitle</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+</head>
+<body class="hold-transition skin-blue sidebar-collapse">
+    <div class="wrapper">
+        <div class="content-wrapper">
+            @*@Html.Partial("Notifications")*@
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>

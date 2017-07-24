@@ -1,0 +1,9 @@
+Group: Widgets
+FriendlyName: HelloWorld
+SystemName: Widgets.HelloWorld
+Version: 1.00
+SupportedVersions: 1.00
+Author: Jayson
+DisplayOrder: 1
+FileName: Plugin.Widgets.HelloWorld.dll
+Description: A test program

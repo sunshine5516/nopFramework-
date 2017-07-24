@@ -1,0 +1,224 @@
+﻿@using NopFramework.Web.Framework.UI
+@using NopFramework.Core.Infrastructure
+@using NopFramework.Admin.Models.Settings
+@{
+    //var defaultGridPageSize = 15;
+    //var gridPageSizes = "10, 15, 20, 50, 100";
+    var defaultGridPageSize = EngineContext.Current.Resolve<NopFramework.Core.Domains.Common.AdminAreaSettings>().DefaultGridPageSize;
+    var gridPageSizes = EngineContext.Current.Resolve<NopFramework.Core.Domains.Common.AdminAreaSettings>().GridPageSizes;
+
+    ViewBag.Title = "所有设置";
+    //active menu item (system name)
+    Html.SetActiveMenuItemSystemName("All settings");
+}
+@Html.AntiForgeryToken()
+<div class="content-header clearfix">
+    <h1 class="pull-left">
+        所有设置（高级）
+    </h1>
+    <div class="pull-right">
+        &nbsp;
+    </div>
+</div>
+<div class="content">
+    <div class="form-horizontal">
+        <div class="panel-group">
+            <div class="panel panel-default panel-search">
+                <div class="panel-body">
+                    <div class="row">
+                        @*<div class="col-md-6">
+                            <div class="form-group">
+                                <div class="col-md-4">
+                                    @Html.LabelFor(model => model.Name)
+                                </div>
+                                <div class="col-md-8">
+                                    @Html.EditorFor(model => model.SearchSettingName)
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-4">
+                                    @Html.LabelFor(model => model.SearchSettingValue)
+                                </div>
+                                <div class="col-md-8">
+                                    @Html.EditorFor(model => model.SearchSettingValue)
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-8 col-md-offset-4">
+                                    <button type="button" id="search-settings" class="btn btn-primary btn-search">
+                                        <i class="fa fa-search"></i>
+                                        搜索
+                                    </button>
+                                </div>
+                            </div>
+                        </div>*@
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div id="settings-grid"></div>
+
+                    <script>
+                        $(document).ready(function() {
+                            $("#settings-grid").kendoGrid({
+                                dataSource: {
+                                    type: "json",
+                                    transport: {
+                                        read: {
+                                            url: "@Html.Raw(Url.Action("AllSettings", "Settings"))",
+                                            type: "POST",
+                                            dataType: "json",
+                                            data: addAntiForgeryToken
+                                        }
+                                        ,
+                                        create: {
+                                            url: "@Html.Raw(Url.Action("SettingAdd", "Settings"))",
+                                            type: "POST",
+                                            dataType: "json",
+                                            data: addAntiForgeryToken
+                                        },
+                                        update: {
+                                            url: "@Html.Raw(Url.Action("SettingUpdate", "Settings"))",
+                                            type: "POST",
+                                            dataType: "json",
+                                            data: addAntiForgeryToken
+                                        },
+                                        destroy: {
+                                            url: "@Html.Raw(Url.Action("SettingDelete", "Settings"))",
+                                            type: "POST",
+                                            dataType: "json",
+                                            data: addAntiForgeryToken
+                                        },
+                                        parameterMap: function(data, operation) {
+                                            if (operation != "read") {
+                                                return data;
+                                            } else {
+                                                //for some reasons only such "Filter" data be parsed
+                                                return JSON.stringify(data);
+                                            }
+                                        }
+                                    },
+                                    schema: {
+                                        data: "Data",
+                                        total: "Total",
+                                        errors: "Errors",
+                                        model: {
+                                            id: "Id",
+                                            fields: {
+                                                Name: { editable: true, type: "string" },
+                                                Value: { editable: true, type: "string" },
+                                                Store: { editable: true, type: "string" },
+                                                StoreId: { editable: true, type: "number" },
+                                                Id: { editable: false, type: "number" }
+                                            }
+                                        }
+                                    },
+                                    requestEnd: function(e) {
+                                        if (e.type == "create" || e.type == "update") {
+                                            this.read();
+                                        }
+                                    },
+                                    error: function(e) {
+                                        display_kendoui_grid_error(e);
+                                        // Cancel the changes
+                                        this.cancelChanges();
+                                    },
+                                    pageSize: @(defaultGridPageSize),
+                                    serverPaging: true,
+                                    serverFiltering: true,
+                                    serverSorting: true
+                                },
+                                pageable: {
+                                    refresh: true,
+                                    pageSizes: [@(gridPageSizes)],
+                                    buttonCount: 5,
+                                    messages: {
+                                        display: "显示{0}-{1}条，共{2}条",
+                                        empty: "没有数据",
+                                        page: "页",
+                                        of: "/ {0}",
+                                        itemsPerPage: "条/页",
+                                        first: "第一页",
+                                        previous: "前一页",
+                                        next: "下一页",
+                                        last: "最后一页",
+                                        refresh: "刷新"
+                                    }
+                                },
+                                toolbar: [{ name: "create", text: "添加" }],
+                                editable: {
+                                    confirmation: "确认删除",
+                                    mode: "inline"
+                                },
+                                scrollable: false,
+                                columns: [
+                                    {
+                                        field: "Name",
+                                        title: "名称",
+                                        width: 300
+                                    }, {
+                                        field: "Value",
+                                        title: "值",
+                                        width: 300
+                                    }, {
+                                        command: [
+                                            {
+                                                name: "edit",
+                                                text: {
+                                                    edit: "编辑",
+                                                    update: "更新",
+                                                    cancel: "取消"
+                                                }
+                                            }, {
+                                                name: "destroy",
+                                                text: "删除"
+                                            }
+                                        ],
+                                        width: 200
+                                    }
+                                ]
+                            });
+                        });
+                        function storeDropDownEditor(container, options) {
+                            $('<input required data-text-field="Name" data-value-field="Id" data-bind="value:StoreId"/>')
+                                .appendTo(container)
+                                .kendoDropDownList({
+                                    autoBind: false,
+                                    dataSource: allStores
+                                });
+                        }
+                    </script>
+
+                    <script type="text/javascript">
+                        $(document).ready(function() {
+                            $('#search-settings').click(function() {
+                                var grid = $('#settings-grid').data('kendoGrid');
+                                grid.dataSource.page(1);
+                                return false;
+                            });
+                        });
+
+                        @*function additionalData() {
+                            var data = {
+                                SearchSettingName: $('#@Html.FieldIdFor(model => model.SearchSettingName)').val(),
+                                SearchSettingValue: $('#@Html.FieldIdFor(model => model.SearchSettingValue)').val()
+                            };
+                            addAntiForgeryToken(data);
+                            return data;
+                        }
+
+                        $("".concat("#@Html.FieldIdFor(model => model.SearchSettingName),",
+                            "#@Html.FieldIdFor(model => model.SearchSettingValue)")).keydown(function(event) {
+                                if (event.keyCode === 13) {
+                                    $("#search-settings").click();
+                                    return false;
+                                }
+                            });*@
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

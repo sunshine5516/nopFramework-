@@ -1,0 +1,58 @@
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Core\bin\Debug\NopFramework.Core.dll.config
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Core\bin\Debug\NopFramework.Core.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Core\bin\Debug\NopFramework.Core.pdb
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Core\bin\Debug\Autofac.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Core\bin\Debug\Autofac.Integration.Mvc.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Core\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Core\bin\Debug\System.Web.Helpers.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Core\bin\Debug\System.Web.Mvc.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Core\bin\Debug\System.Web.Razor.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Core\bin\Debug\System.Web.WebPages.Deployment.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Core\bin\Debug\System.Web.WebPages.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Core\bin\Debug\System.Web.WebPages.Razor.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Core\bin\Debug\Autofac.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Core\bin\Debug\Autofac.Integration.Mvc.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Core\bin\Debug\System.Web.Helpers.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Core\bin\Debug\System.Web.Mvc.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Core\bin\Debug\System.Web.Razor.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Core\bin\Debug\System.Web.WebPages.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Core\bin\Debug\System.Web.WebPages.Deployment.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Core\bin\Debug\System.Web.WebPages.Razor.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Core\obj\Debug\NopFramework.Core.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework\NopFramework.Core\obj\Debug\NopFramework.Core.pdb
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Core\bin\Debug\NopFramework.Core.dll.config
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Core\bin\Debug\NopFramework.Core.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Core\bin\Debug\NopFramework.Core.pdb
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Core\obj\Debug\NopFramework.Core.csprojResolveAssemblyReference.cache
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Core\obj\Debug\NopFramework.Core.dll
+E:\Code\nopCommerce\nopFramework\nopFramework\Libraries\NopFramework.Core\obj\Debug\NopFramework.Core.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Core\bin\Debug\NopFramework.Core.dll.config
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Core\bin\Debug\NopFramework.Core.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Core\bin\Debug\NopFramework.Core.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Core\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Core\bin\Debug\Microsoft.Web.Infrastructure.xml
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Core\obj\Debug\NopFramework.Core.csprojResolveAssemblyReference.cache
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Core\obj\Debug\NopFramework.Core.dll
+F:\Demo\开源框架\nopCommerce框架\nopFramework\Libraries\NopFramework.Core\obj\Debug\NopFramework.Core.pdb
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Core\bin\Debug\NopFramework.Core.dll.config
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Core\bin\Debug\NopFramework.Core.dll
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Core\bin\Debug\NopFramework.Core.pdb
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Core\obj\Debug\NopFramework.Core.csprojResolveAssemblyReference.cache
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Core\obj\Debug\NopFramework.Core.dll
+E:\Code\nopCommerce\nopFramework\Libraries\NopFramework.Core\obj\Debug\NopFramework.Core.pdb
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Core\bin\Debug\NopFramework.Core.dll.config
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Core\bin\Debug\NopFramework.Core.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Core\bin\Debug\NopFramework.Core.pdb
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Core\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Core\bin\Debug\Microsoft.Web.Infrastructure.xml
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Core\obj\Debug\NopFramework.Core.csprojResolveAssemblyReference.cache
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Core\obj\Debug\NopFramework.Core.dll
+F:\Demo\开源框架\nopCommerce框架\NopFramework - 备份\nopFrameworkSVN\Libraries\NopFramework.Core\obj\Debug\NopFramework.Core.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Core\bin\Debug\NopFramework.Core.dll.config
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Core\bin\Debug\NopFramework.Core.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Core\bin\Debug\NopFramework.Core.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Core\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Core\bin\Debug\Microsoft.Web.Infrastructure.xml
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Core\obj\Debug\NopFramework.Core.dll
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Core\obj\Debug\NopFramework.Core.pdb
+F:\Demo\开源框架\nopCommerce框架\nopFrameworkSVN\Libraries\NopFramework.Core\obj\Debug\NopFramework.Core.csprojResolveAssemblyReference.cache

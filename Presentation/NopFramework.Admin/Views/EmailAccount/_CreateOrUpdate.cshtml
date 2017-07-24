@@ -1,0 +1,126 @@
+﻿@using NopFramework.Admin.Models.Messages
+@using NopFramework.Web.Framework
+@model EmailAccountModel
+
+@Html.ValidationSummary(true)
+@Html.HiddenFor(model => model.Id)
+@*@Html.HiddenFor(model => model.Id)*@
+<div class="content">
+    <div class="form-horizontal">
+        <div class="panel-group">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="form-group">
+                        <div class="col-md-3">
+                            @Html.NopFrameowrkLabelFor(model => model.Email)
+                        </div>
+                        <div class="col-md-9">
+                            @Html.NopFrameowrkEditorFor(model => model.Email)
+                            @Html.ValidationMessageFor(model => model.Email)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-3">
+                            @Html.NopFrameowrkLabelFor(model => model.DisplayName)
+                        </div>
+                        <div class="col-md-9">
+                            @Html.NopFrameowrkEditorFor(model => model.DisplayName)
+                            @Html.ValidationMessageFor(model => model.DisplayName)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-3">
+                            @Html.NopFrameowrkLabelFor(model => model.Host)
+                        </div>
+                        <div class="col-md-9">
+                            @Html.NopFrameowrkEditorFor(model => model.Host)
+                            @Html.ValidationMessageFor(model => model.Host)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-3">
+                            @Html.NopFrameowrkLabelFor(model => model.Port)
+                        </div>
+                        <div class="col-md-9">
+                            @Html.NopFrameowrkEditorFor(model => model.Port)
+                            @Html.ValidationMessageFor(model => model.Port)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-3">
+                            @Html.NopFrameowrkLabelFor(model => model.Username)
+                        </div>
+                        <div class="col-md-9">
+                            @Html.NopFrameowrkEditorFor(model => model.Username)
+                            @Html.ValidationMessageFor(model => model.Username)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-3">
+                            @Html.NopFrameowrkLabelFor(model => model.Password)
+                        </div>
+                        <div class="col-md-9">
+                            <div class="input-group">
+                                @Html.NopFrameowrkEditorFor(model => model.Password)
+                                <div class="input-group-btn">
+                                    @if (Model.Id > 0)
+                                    {
+                                        <button type="submit" name="changepassword" class="btn btn-info">
+                                            修改密码
+                                        </button>
+                                    }
+                                </div>
+                            </div>
+                            @Html.ValidationMessageFor(model => model.Password)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-3">
+                            @Html.NopFrameowrkLabelFor(model => model.EnableSsl)
+                        </div>
+                        <div class="col-md-9">
+                            @Html.NopFrameowrkEditorFor(model => model.EnableSsl)
+                            @Html.ValidationMessageFor(model => model.EnableSsl)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-3">
+                            @Html.NopFrameowrkLabelFor(model => model.UseDefaultCredentials)
+                        </div>
+                        <div class="col-md-9">
+                            @Html.NopFrameowrkEditorFor(model => model.UseDefaultCredentials)
+                            @Html.ValidationMessageFor(model => model.UseDefaultCredentials)
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @if (Model.Id > 0)
+            {
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        发送邮件到
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <div class="col-md-3">
+                                @Html.NopFrameowrkLabelFor(model => model.SendTestEmailTo)
+                            </div>
+                            <div class="col-md-9">
+                                <div class="input-group">
+                                    @Html.NopFrameowrkEditorFor(model => model.SendTestEmailTo)
+                                    <div class="input-group-btn">
+                                        <button type="submit" name="sendtestemail" class="btn btn-info">
+                                            发送测试邮件
+                                        </button>
+                                    </div>
+                                </div>
+                                @Html.ValidationMessageFor(model => model.SendTestEmailTo)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+

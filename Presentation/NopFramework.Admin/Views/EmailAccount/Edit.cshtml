@@ -1,0 +1,36 @@
+﻿@using NopFramework.Admin.Models.Messages
+@using NopFramework.Web.Framework.UI
+@model EmailAccountModel
+
+@{
+    //page title
+    ViewBag.Title ="编辑邮件帐户";
+    //active menu item (system name)
+    Html.SetActiveMenuItemSystemName("Email accounts");
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="content-header clearfix">
+        <h1 class="pull-left">
+            编辑邮件帐户
+            <small><i class="fa fa-arrow-circle-left"></i>@Html.ActionLink("返回邮件帐户列表", "List")</small>
+        </h1>
+        <div class="pull-right">
+            <button type="submit" name="save" class="btn bg-blue">
+                <i class="fa fa-floppy-o"></i>
+                保存
+            </button>
+            <button type="submit" name="save-continue" class="btn bg-blue">
+                <i class="fa fa-floppy-o"></i>
+                保存并继续编辑
+            </button>
+            <span id="emailAccount-delete" class="btn bg-red">
+                <i class="fa fa-trash-o"></i>
+                删 除
+            </span>
+        </div>
+    </div>
+    @Html.Partial("_CreateOrUpdate", Model)
+}
